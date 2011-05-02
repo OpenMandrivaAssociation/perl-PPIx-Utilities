@@ -1,16 +1,14 @@
 %define upstream_name    PPIx-Utilities
-%define upstream_version 1.000001
+%define upstream_version 1.001000
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
-
+Release:    %mkrel 1
 Summary:    A problem identified by L<PPIx::Utilities|PPIx::Utilities>
 License:    GPL+ or Artistic
 Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/PPIx/%{upstream_name}-%{upstream_version}.tar.gz
-
 BuildRequires: perl(Data::Dumper)
 BuildRequires: perl(Exception::Class)
 BuildRequires: perl(Exporter)

@@ -3,12 +3,12 @@
 
 Summary:	A problem identified by L<PPIx::Utilities|PPIx::Utilities>
 Name:		perl-%{modname}
-Version:	%perl_convert_version %{modver}
-Release:	16
+Version:	%{modver}
+Release:	17
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{modname}
-Source0:	http://www.cpan.org/modules/by-module/PPIx/%{modname}-%{modver}.tar.gz
+Url:		https://guest@perlcritic.tigris.org/svn/perlcritic/trunk/distributions/PPIx-Utilities
+Source0:	https://cpan.metacpan.org/authors/id/E/EL/ELLIOTJS/PPIx-Utilities-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	make
 BuildRequires:	perl(Data::Dumper)
